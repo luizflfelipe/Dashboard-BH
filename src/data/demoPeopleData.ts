@@ -1,0 +1,45 @@
+import type { DashboardData } from '../types/people'
+
+// Fictional examples only. Replace with the normalized Apps Script response after business rules are validated.
+export const demoPeopleData: DashboardData = {
+  source: 'demo',
+  isFictional: true,
+  updatedAt: null,
+  employees: [
+    { employeeId: 'D-001', name: 'Ana Clara Mendes', team: 'Relacionamento', site: 'Belo Horizonte', channel: 'Digital', cell: 'Retenção', status: 'Ativo', shift: 'Manhã', coordinator: 'Marina Costa', manager: 'Rafael Lima', role: 'Analista de atendimento', admissionDate: '2022-03-14', area: 'Atendimento', sector: 'CX' },
+    { employeeId: 'D-002', name: 'Bruno Carvalho', team: 'Relacionamento', site: 'Belo Horizonte', channel: 'Voz', cell: 'Suporte', status: 'Ativo', shift: 'Tarde', coordinator: 'Marina Costa', manager: 'Rafael Lima', role: 'Analista de atendimento', admissionDate: '2021-08-02', area: 'Atendimento', sector: 'CX' },
+    { employeeId: 'D-003', name: 'Camila Ferreira', team: 'Vendas', site: 'São Paulo', channel: 'Digital', cell: 'Conversão', status: 'Férias', shift: 'Manhã', coordinator: 'Pedro Nunes', manager: 'Isabela Rocha', role: 'Consultora de vendas', admissionDate: '2023-01-09', area: 'Comercial', sector: 'Vendas' },
+    { employeeId: 'D-004', name: 'Diego Martins', team: 'Suporte', site: 'Belo Horizonte', channel: 'Voz', cell: 'Nível 1', status: 'Afastado', shift: 'Noite', coordinator: 'Marina Costa', manager: 'Rafael Lima', role: 'Analista de suporte', admissionDate: '2020-11-23', area: 'Atendimento', sector: 'CX' },
+    { employeeId: 'D-005', name: 'Eduarda Oliveira', team: 'Vendas', site: 'São Paulo', channel: 'Digital', cell: 'Conversão', status: 'Ativo', shift: 'Tarde', coordinator: 'Pedro Nunes', manager: 'Isabela Rocha', role: 'Consultora de vendas', admissionDate: '2024-05-06', area: 'Comercial', sector: 'Vendas' },
+    { employeeId: 'D-006', name: 'Felipe Almeida', team: 'Suporte', site: 'Remoto', channel: 'Digital', cell: 'Nível 2', status: 'Ativo', shift: 'Manhã', coordinator: 'Joana Reis', manager: 'Rafael Lima', role: 'Analista de suporte', admissionDate: '2022-09-19', area: 'Atendimento', sector: 'CX' },
+    { employeeId: 'D-007', name: 'Gabriela Santos', team: 'Relacionamento', site: 'Belo Horizonte', channel: 'Voz', cell: 'Retenção', status: 'Ativo', shift: 'Tarde', coordinator: 'Marina Costa', manager: 'Rafael Lima', role: 'Analista de atendimento', admissionDate: '2023-06-12', area: 'Atendimento', sector: 'CX' },
+    { employeeId: 'D-008', name: 'Henrique Souza', team: 'Vendas', site: 'São Paulo', channel: 'Digital', cell: 'Conversão', status: 'Ativo', shift: 'Noite', coordinator: 'Pedro Nunes', manager: 'Isabela Rocha', role: 'Consultor de vendas', admissionDate: '2021-04-26', area: 'Comercial', sector: 'Vendas' },
+    { employeeId: 'D-009', name: 'Isabela Ribeiro', team: 'Suporte', site: 'Remoto', channel: 'Digital', cell: 'Nível 1', status: 'Ativo', shift: 'Manhã', coordinator: 'Joana Reis', manager: 'Rafael Lima', role: 'Analista de suporte', admissionDate: '2022-12-05', area: 'Atendimento', sector: 'CX' },
+    { employeeId: 'D-010', name: 'João Pedro Lima', team: 'Relacionamento', site: 'Belo Horizonte', channel: 'Voz', cell: 'Suporte', status: 'Ativo', shift: 'Tarde', coordinator: 'Marina Costa', manager: 'Rafael Lima', role: 'Analista de atendimento', admissionDate: '2024-02-19', area: 'Atendimento', sector: 'CX' },
+    { employeeId: 'D-011', name: 'Larissa Gomes', team: 'Vendas', site: 'São Paulo', channel: 'Digital', cell: 'Conversão', status: 'Ativo', shift: 'Manhã', coordinator: 'Pedro Nunes', manager: 'Isabela Rocha', role: 'Consultora de vendas', admissionDate: '2020-07-13', area: 'Comercial', sector: 'Vendas' },
+    { employeeId: 'D-012', name: 'Matheus Costa', team: 'Suporte', site: 'Remoto', channel: 'Digital', cell: 'Nível 2', status: 'Ativo', shift: 'Noite', coordinator: 'Joana Reis', manager: 'Rafael Lima', role: 'Analista de suporte', admissionDate: '2023-10-30', area: 'Atendimento', sector: 'CX' },
+  ],
+  history: [
+    { month: 'Janeiro', monthShort: 'Jan', year: 2025, total: 116, active: 103, leave: 6, vacation: 4, dismissed: 3 },
+    { month: 'Fevereiro', monthShort: 'Fev', year: 2025, total: 118, active: 105, leave: 6, vacation: 4, dismissed: 3 },
+    { month: 'Março', monthShort: 'Mar', year: 2025, total: 121, active: 107, leave: 6, vacation: 5, dismissed: 3 },
+    { month: 'Abril', monthShort: 'Abr', year: 2025, total: 120, active: 106, leave: 6, vacation: 5, dismissed: 3 },
+    { month: 'Maio', monthShort: 'Mai', year: 2025, total: 124, active: 109, leave: 6, vacation: 6, dismissed: 3 },
+    { month: 'Junho', monthShort: 'Jun', year: 2025, total: 126, active: 110, leave: 7, vacation: 6, dismissed: 3 },
+    { month: 'Julho', monthShort: 'Jul', year: 2025, total: 125, active: 109, leave: 7, vacation: 6, dismissed: 3 },
+    { month: 'Agosto', monthShort: 'Ago', year: 2025, total: 129, active: 112, leave: 7, vacation: 7, dismissed: 3 },
+    { month: 'Setembro', monthShort: 'Set', year: 2025, total: 131, active: 113, leave: 7, vacation: 7, dismissed: 4 },
+    { month: 'Outubro', monthShort: 'Out', year: 2025, total: 130, active: 112, leave: 7, vacation: 7, dismissed: 4 },
+    { month: 'Novembro', monthShort: 'Nov', year: 2025, total: 134, active: 115, leave: 7, vacation: 8, dismissed: 4 },
+    { month: 'Dezembro', monthShort: 'Dez', year: 2025, total: 136, active: 116, leave: 7, vacation: 9, dismissed: 4 },
+  ],
+  movements: [
+    { id: 'M-01', date: '2025-12-12', employeeName: 'Rafael Torres', type: 'Admissão', role: 'Analista de atendimento', site: 'Belo Horizonte' },
+    { id: 'M-02', date: '2025-12-08', employeeName: 'Beatriz Moreira', type: 'Início de férias', role: 'Consultora de vendas', site: 'São Paulo' },
+    { id: 'M-03', date: '2025-12-04', employeeName: 'Lucas Pires', type: 'Transferência', role: 'Analista de suporte', site: 'Remoto' },
+    { id: 'M-04', date: '2025-11-28', employeeName: 'Mariana Lopes', type: 'Desligamento', role: 'Analista de atendimento', site: 'Belo Horizonte' },
+    { id: 'M-05', date: '2025-11-21', employeeName: 'Thiago Barros', type: 'Retorno de férias', role: 'Consultor de vendas', site: 'São Paulo' },
+    { id: 'M-06', date: '2025-11-15', employeeName: 'Nathalia Dias', type: 'Admissão', role: 'Analista de suporte', site: 'Remoto' },
+    { id: 'M-07', date: '2025-11-09', employeeName: 'Gustavo Freitas', type: 'Início de férias', role: 'Analista de atendimento', site: 'Belo Horizonte' },
+  ],
+}
